@@ -5,9 +5,11 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 from yolo.net.yolo_tiny_net import YoloTinyNet
+import requests
 
 directory     = "/home/dev/tensorflowTest/data"
 directory_out = "/home/dev/tensorflowTest/data"
+tiny_url = 'https://drive.google.com/uc?id=0B-yiAeTLLamRekxqVE01Yi1RRlk&export=download'
 model_path = '/home/dev/tensorflowTest/third_party/yolo/models/pretrain/yolo_tiny.ckpt'
 
 channel= 3
